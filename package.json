@@ -1,0 +1,20 @@
+{
+  "name": "profile-card-component",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "sass:compile": "sass ./sass/main.scss ./css/main.css",
+    "sass:watch": "sass ./sass/main.scss ./css/main.css -w",
+    "css:prefix": "postcss ./css/main.css --use autoprefixer -b \"last 2 versions\" -o ./css/main.css"
+  },
+  "author": "Moshiur",
+  "license": "MIT",
+  "description": "",
+  "devDependencies": {
+    "autoprefixer": "^10.4.20",
+    "browserslist": "^4.23.3",
+    "postcss": "^8.4.41",
+    "postcss-cli": "^11.0.0",
+    "sass": "^1.77.8"
+  }
+}

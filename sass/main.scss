@@ -86,6 +86,50 @@ body {
   place-content: center;
   background-color: $clr-riviera;
   text-align: center;
+  position: relative;
+  overflow: hidden;
+  &::before {
+    content: "";
+    width: 38.875rem;
+    height: 38.8125rem;
+    background: {
+      image: url(../assets/images/bg-pattern-top.svg);
+      repeat: no-repeat;
+      position: center;
+      size: cover;
+    }
+    position: absolute;
+    top: -24.6856rem;
+    left: -24.6856rem;
+    transform: rotate(135deg);
+    @include laptop {
+      width: 61.125rem;
+      height: 61rem;
+      top: -41.865rem;
+      left: -12.7944rem;
+    }
+  }
+  &::after {
+    content: "";
+    width: 38.875rem;
+    height: 38.8125rem;
+    background: {
+      image: url(../assets/images/bg-pattern-bottom.svg);
+      repeat: no-repeat;
+      position: center;
+      size: cover;
+    }
+    position: absolute;
+    bottom: -24.6856rem;
+    right: -24.6856rem;
+    transform: rotate(45deg);
+    @include laptop {
+      width: 61.125rem;
+      height: 61rem;
+      bottom: -41.865rem;
+      right: -12.7944rem;
+    }
+  }
   &__top-img {
     border-top-left-radius: 0.9375rem;
     border-top-right-radius: 0.9375rem;

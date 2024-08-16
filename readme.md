@@ -10,8 +10,8 @@
 
 ### Links
 
-- Live Site URL: []()
-- Solution URL: []()
+- Live Site URL: [https://codermoshiur.github.io/profile-card-component/](https://codermoshiur.github.io/profile-card-component/)
+- Solution URL: [https://www.frontendmentor.io/solutions/profile-card-component-using-sass-DXvwNwrCyW](https://www.frontendmentor.io/solutions/profile-card-component-using-sass-DXvwNwrCyW)
 
 ## My process
 
